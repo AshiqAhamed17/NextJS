@@ -28,10 +28,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="p-4"> AQ-App</div>
+        <div className="p-4 text-black bg-slate-200"> AQ-App</div>
         {children}
+        <div className="p-1 text-black bg-purple-400"> Footer</div>
 
-        
       </body>
     </html>
   );
